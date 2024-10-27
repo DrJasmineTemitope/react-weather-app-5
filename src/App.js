@@ -17,7 +17,14 @@ export default function App() {
           >
             Temitope Lawal {""}
           </a>
-          and Open Source on Github
+          and Open Source on{" "}
+          <a
+            href="https://github.com/DrJasmineTemitope/react-weather-app-5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
         </footer>
       </div>
     </div>
