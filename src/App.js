@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Weather App</h1>
-        <SearchEngine />
+        <SearchEngine defaultCity="Plymouth" />
         <footer>
           This project is built by{" "}
           <a
