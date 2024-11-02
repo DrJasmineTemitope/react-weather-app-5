@@ -2,12 +2,13 @@ import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 import WeatherDate from "./WeatherDate";
+import "./Weather.css";
 
 export default function Weather(props) {
   return (
     <div>
       <h1>{props.data.city}</h1>
-      <ul>
+      <ul className="WeatherUL">
         <li>
           <WeatherDate date={props.data.date} />
         </li>

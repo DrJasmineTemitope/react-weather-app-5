@@ -1,0 +1,9 @@
+h1 {
+  text-align: left;
+}
+
+.WeatherUL {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
