@@ -20,12 +20,15 @@ export default function WeatherForecast(props) {
       <div className="WeatherForecast">
         <div className="row">
           {forecast.Map(function (dailyForecast, index) {
-            if (index < 5)
+            if (index < 5) {
               return (
                 <div className="col" key={index}>
-                  <ForecastDay data={forecast[0]} />
+                  <ForecastDay data={dailyForecast} />
                 </div>
               );
+            } else {
+              return null;
+            }
           })}
         </div>
       </div>
