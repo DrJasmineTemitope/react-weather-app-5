@@ -17,7 +17,6 @@ export default function WeatherForecast(props) {
         <div className="row">
           <div className="col">
             <ForecastDay data={forecast[0]} />
-            <div>Hello World</div>
           </div>
         </div>
       </div>
