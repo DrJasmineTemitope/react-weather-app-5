@@ -15,7 +15,7 @@ export default function WeatherForecast(props) {
     return (
       <div className="WeatherForecast">
         <div className="row">
-          {forecast.map(function (dailyForecast, index) {
+          {forecast.Map(function (dailyForecast, index) {
             if (index < 5)
               return (
                 <div className="col" key={index}>
@@ -33,5 +33,7 @@ export default function WeatherForecast(props) {
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleResponse);
+
+    return null;
   }
 }
